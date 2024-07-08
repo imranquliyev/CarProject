@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.title{
+    font-family: "Open Sans", sans-serif;
+}
+.inner{
+    width: 80%;
+    margin: auto;
+}
+
+.first-section{
+    border-bottom: 1px solid #000;
+}
+    
+.first-section-inner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+}
+
+/* second section */
+
+.second-section{
+    padding: 50px 0;
+}
+
+.second-sec-img,.second-sec-content{
+    width: 100%;
+}
+.second-section-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+}
+.second-sec-content{
+    width: 600px;
+    text-align: center;
+    margin-top: 30px;
+}
+.second-sec-title{
+
+}
+
+.second-sec-txt{
+    font-size: 14px;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Third section */
+
+.third-sec-img{
+    width: 50%;
+}
+
+.third-section{
+    display: flex;
+    align-items: start;
+    gap: 50px;
+}
+.third-sec-content{
+    position: relative;
+    width: 40%;
+}
+.third-sec-content-icon{
+    width: 100x;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    z-index: 0;
+}
+.third-sec-elements{
+    z-index: 1;
+    position: relative;
+}
+.third-sec-elements p{
+    padding: 20px 0 20px 60px;
+}
