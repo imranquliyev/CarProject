@@ -79,21 +79,39 @@
 }
 .third-sec-content{
     position: relative;
-    width: 40%;
+    width: 30%;
 }
 .third-sec-content-icon{
     width: 100x;
     position: absolute;
     top: 0;
     left: 0;
-    height: 100px;
+    height: 120px;
     z-index: 0;
 }
 .third-sec-elements{
     z-index: 1;
     position: relative;
+    left: 50px;
+    top: 50px;
 }
 .third-sec-elements p{
-    padding: 20px 0 20px 60px;
+    padding: 20px 0 20px 20px;
+    font-size: 14px;
+    line-height: 25px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.learn-btn{
+    background-image: linear-gradient(to right, #84abec, #cf84cf);
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
 }
 /* test */
